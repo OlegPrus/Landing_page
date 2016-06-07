@@ -1,0 +1,209 @@
+@font-face {
+    font-family: LatoRegular; /* Имя шрифта */
+    src: url(../fonts/LatoRegular.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+@font-face {
+    font-family: LatoBold; /* Имя шрифта */
+    src: url(../fonts/LatoBold.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+@font-face {
+    font-family: LatoLight; /* Имя шрифта */
+    src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+@font-face {
+    font-family: MC Sans serif Regular; /* Имя шрифта */
+    src: url(../fonts/micross.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+
+
+.header-wrapper{
+    width:100%;
+    height:100vh;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-block-header{
+    margin:0px auto;
+    outline:1px solid red;
+    width:75%;
+    height:100vh;
+}
+
+.wrapper-logo-menu{
+    padding-top:20px;
+    width:100%;
+    height:68px;
+    outline:1px solid blue;
+}
+
+.logo{
+    float:left;
+    width:155px;
+    height:68px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+
+.nav{
+    float:right;
+    width:500px;
+    height:68px;
+}
+
+.nav ul li{
+    float:right;
+    display:inline-block;
+}
+
+.nav ul li a{
+    margin-left:45px;
+    text-decoration: none;
+    font-family: LatoRegular;
+    font-size: 16px;
+    color:#fff;
+    line-height: 68px;
+}
+
+.nav ul li a:hover{
+    color:#FF635E;
+    border-bottom: 3px solid #FF635E;
+}
+
+.studing-university-wrapper{
+    outline:1px solid blue;
+    margin-top:120px;
+    width: 100%;
+    height:200px;
+}
+
+.line-left
+{
+    width:15%;
+    margin-top:30px;
+    float:left;
+
+}
+
+.line-right{
+    width:15%;
+    margin-top:30px;
+    float:right;
+}
+
+.only-line{
+    width:100%;
+    height:8px;
+    background-color: #fff;
+    opacity:0.2;
+}
+
+.content-block{
+    text-align: center;
+    width:70%;
+    float:left;;
+    height:200px;
+}
+
+.text-1{
+    font-family: MC Sans serif Regular;
+    font-size: 51px;
+    color:#fff;
+
+}
+
+.red-text{
+    color:#FF635D;
+}
+
+.text-2{
+    margin-top:20px;
+    color:#fff;
+    font-size: 24px;
+    font-family: LatoLight;
+}
+
+.button{
+    cursor:pointer;
+    margin:35px auto 0px auto;
+    font-size: 24px;
+    color:#FF635D;
+    line-height:55px;
+    font-family: LatoLight;
+
+    text-align: center;
+    width:205px;
+    height:55px;
+    border:2px solid #FF635D;
+
+    border-radius: 7px;
+        -moz-border-radius:7px;
+            -webkit-border-radius: 7px;
+}
+
+.button:hover{
+  border-color: #FF3C35;
+    color:#FF3C35;
+}
+
+.page-down{
+    cursor:pointer;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    line-height: 25px;
+    color:#fff;
+    width:25px;
+    height:25px;
+    background-color: #FF635D;
+    border-radius:50%;
+        -moz-border-radius:50%;
+            -webkit-border-radius: 50%;
+}
+
+.page-down a{
+   color:#fff;
+   display:block;
+   text-decoration: none;
+}
+
+.subjects-wrapper{
+    width:100%;
+    height:100vh;
+
+}
+
+.top-text{
+    text-align: center;
+    width:100%;
+    height:28px;
+    margin-top:40px;
+    color:#000;
+    font-size: 24px;
+    font-family: LatoLight;
+}
+.bottom-text{
+    text-align: center;
+    width:100%;
+    height:28px;
+    margin-top:40px;
+    color:#000;
+    font-size: 18px;
+    font-family: LatoLight;
+}
+
+.center{
+    width:75%;
+    margin:auto;
+}
