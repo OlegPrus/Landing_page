@@ -36,6 +36,20 @@
                 $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
                 return false;
             });
+            $('a[href^="#go_go"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
+            $('a[href^="#mb_go"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
             $('a[href^="#top"]').click(function()
             {
                 var target = $(this).attr('href'); // взяли значення
@@ -44,6 +58,13 @@
                 return false;
             });
             $('a[href^="#dont_go"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
+            $('a[href^="#by-by"]').click(function()
             {
                 var target = $(this).attr('href'); // взяли значення
                 // атрибута - href в ссилки
