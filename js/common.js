@@ -15,7 +15,35 @@
                 $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
                 return false;
             });
+             $('a[href^="#4"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
+              $('a[href^="#5"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
+               $('a[href^="#6"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
             $('a[href^="#top"]').click(function()
+            {
+                var target = $(this).attr('href'); // взяли значення
+                // атрибута - href в ссилки
+                $('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+                return false;
+            });
+            $('a[href^="#dont_go"]').click(function()
             {
                 var target = $(this).attr('href'); // взяли значення
                 // атрибута - href в ссилки

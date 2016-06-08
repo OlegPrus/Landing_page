@@ -39,7 +39,6 @@
 
 .center-block-header{
     margin:0px auto;
-    outline:1px solid red;
     width:75%;
 
 }
@@ -48,7 +47,6 @@
     padding-top:20px;
     width:100%;
     height:68px;
-    outline:1px solid blue;
 }
 
 .logo{
@@ -85,7 +83,6 @@
 }
 
 .studing-university-wrapper{
-    outline:1px solid blue;
     margin-top:120px;
     width: 100%;
     height:200px;
@@ -138,6 +135,7 @@
 }
 
 .button{
+    display: block;
     text-transform: capitalize;
     cursor:pointer;
     margin:35px auto 0px auto;
@@ -145,7 +143,7 @@
     color:#FF635D;
     line-height:55px;
     font-family: LatoLight;
-
+    text-decoration: none;
     text-align: center;
     width:205px;
     height:55px;
@@ -154,6 +152,7 @@
     border-radius: 7px;
         -moz-border-radius:7px;
             -webkit-border-radius: 7px;
+
 }
 
 .button:hover{
@@ -176,8 +175,28 @@
         -moz-border-radius:50%;
             -webkit-border-radius: 50%;
 }
+.page-down1{
+    margin-top:65px;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    line-height: 25px;
+    color:#fff;
+    width:25px;
+    height:25px;
+    background-color: #FF635D;
+    border-radius:50%;
+        -moz-border-radius:50%;
+            -webkit-border-radius: 50%;
+ }
 
 .page-down a{
+   color:#fff;
+   display:block;
+   text-decoration: none;
+}
+.page-down1 a{
    color:#fff;
    display:block;
    text-decoration: none;
@@ -202,7 +221,6 @@
     font-family: LatoLight;
     border-bottom: 1px solid #868686;
     margin: 0 auto;
-    outline:1px solid blue;
     text-transform: uppercase;
 }
 .bottom-text{
@@ -213,13 +231,8 @@
     color:#000;
     font-size: 18px;
     font-family: LatoLight;
-    outline:1px solid blue;
 }
-.line-bottom{
-	background: url("../images/line1.png");
-	height: 5px;
-    width: 100%;
-}
+
 .center{
     width:75%;
     margin:auto;
@@ -234,7 +247,6 @@
     height: 265px;
     max-width: 215px;
     margin-right:20px;
-    /*outline:1px solid red;*/
 }
 
 .smile{
@@ -242,7 +254,6 @@
     margin:0px auto;
     width:101px;
     height:116px;
-    /*outline:1px solid black;*/
     background-image: url(../images/sm4r.png);
      -webkit-transition: background 500ms ease-out; /* Firefox */
         -moz-transition: background 500ms ease-out; /* WebKit */
@@ -251,12 +262,67 @@
 }
 
 .smile:hover{
-    /*outline:1px solid black;*/
     background-image: url(../images/sm4w.png);
     -webkit-transition: background 500ms ease-out; /* Firefox */
         -moz-transition: background 500ms ease-out; /* WebKit */
         -o-transition: background 500ms ease-out; /* Opera */
-transition: background 500ms ease-out; /* Standard */
+            transition: background 500ms ease-out; /* Standard */
+}
+.smile2{
+        cursor:pointer;
+    margin:0px auto;
+    width:101px;
+    height:116px;
+    background-image: url(../images/sm3r.png);
+     -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
+}
+
+.smile2:hover{
+    background-image: url(../images/sm3w.png);
+    -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
+}
+.smile3{
+        cursor:pointer;
+    margin:0px auto;
+    width:101px;
+    height:116px;
+    background-image: url(../images/sm2r.png);
+     -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
+}
+
+.smile3:hover{
+    background-image: url(../images/sm2w.png);
+    -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
+}
+.smile4{
+        cursor:pointer;
+    margin:0px auto;
+    width:101px;
+    height:116px;
+    background-image: url(../images/sm1r.png);
+     -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
+}
+.smile4:hover{
+    background-image: url(../images/sm1w.png);
+    -webkit-transition: background 500ms ease-out; /* Firefox */
+        -moz-transition: background 500ms ease-out; /* WebKit */
+        -o-transition: background 500ms ease-out; /* Opera */
+            transition: background 500ms ease-out; /* Standard */
 }
 
 .underline{
@@ -280,7 +346,7 @@ transition: background 500ms ease-out; /* Standard */
     font-family: LatoLight;
     font-size:15px;
 }
-.container-three-block{
+.container-3-block{
     background-image: url("../images/run.png");
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -306,7 +372,7 @@ transition: background 500ms ease-out; /* Standard */
     width: 74%;
     text-align: center;
     font-size: 0;
-    margin: 40px auto;
+    margin: 20px auto;
     height: 400px;
 }
 .gop{
@@ -371,14 +437,116 @@ transition: background 500ms ease-out; /* Standard */
     background-image: url("../images/ptca.png");
 }
 .tes-3{
-    background-image: url("../images/ecolog.png");
+    background-image: url("../images/tev.png");
 }
 .tes-4{
-    background-image: url("../images/comm.png");
+    background-image: url("../images/log.png");
 }
 .tes-5{
     background-image: url("../images/bjd.png");
 }
 .tes-6{
     background-image: url("../images/culture.png");
+}
+.container-4-block{
+    background-image: url("../images/run.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.container-5-block{
+    background-image: url("../images/run.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.container-6-block{
+    background-image: url("../images/run.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.tes2-1, .tes2-2, .tes2-3, .tes2-4, .tes2-5, .tes2-6{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.tes3-1, .tes3-2, .tes3-3, .tes3-4, .tes3-5, .tes3-6{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.tes4-1, .tes4-2, .tes4-3, .tes4-4, .tes4-5, .tes4-6{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.tes2-1{
+    background-image: url("../images/ecolog.png");
+}
+.tes2-2{
+    background-image: url("../images/psyho.png");
+}
+.tes2-3{
+    background-image: url("../images/metr.png");
+}
+.tes2-4{
+    background-image: url("../images/philosophy.png");
+}
+.tes2-5{
+    background-image: url("../images/comm.png");
+}
+.tes2-6{
+    background-image: url("../images/polit.png");
+}
+
+
+.tes3-1{
+    background-image: url("../images/english.png");
+}
+.tes3-2{
+    background-image: url("../images/os.png");
+}
+.tes3-3{
+    background-image: url("../images/business.png");
+}
+.tes3-4{
+    background-image: url("../images/test.png");
+}
+.tes3-5{
+    background-image: url("../images/alg.png");
+}
+.tes3-6{
+    background-image: url("../images/zpz.png");
+}
+
+
+.tes4-1{
+    background-image: url("../images/design.png");
+}
+.tes4-2{
+    background-image: url("../images/game.png");
+}
+.tes4-3{
+    background-image: url("../images/oop.png");
+}
+.tes4-4{
+    background-image: url("../images/networks.png");
+}
+.tes4-5{
+    background-image: url("../images/web.png");
+}
+.tes4-6{
+    background-image: url("../images/db.png");
 }
